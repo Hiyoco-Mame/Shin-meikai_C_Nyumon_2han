@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "algorithm": "c",
-        "bitset": "c",
-        "memory": "c",
-        "optional": "c",
-        "random": "c"
-    }
-}
