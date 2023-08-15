@@ -51,18 +51,18 @@ void print_bits(unsigned x){
 //ビットをセットする関数//
 unsigned set(unsigned x, int pos){
     int n = 1;
-    n <<= pos;
+    n <<= (pos - 1);
     return(x | n);
 }
 //ビットリセットする関数//
 unsigned reset(unsigned x, int pos){
     int n = 1;
-    n <<= pos;
+    n <<= (pos - 1);
     return(x & ~n);
 }
 //ビット反転する関数//
 unsigned inverse(unsigned x, int pos){
     int n = 1;
-    n <<= pos;
+    n <<= (pos - 1);
     return(x ^ n);
 }
