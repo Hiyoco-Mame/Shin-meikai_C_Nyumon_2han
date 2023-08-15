@@ -1,4 +1,6 @@
 # 同期対象から外すフォルダ
-Playground
+.vscode/
+Playground/
+.DS_Store/
 
 # 同期対象から外すファイル
